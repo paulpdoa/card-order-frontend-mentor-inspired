@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.card {
+    background:rgb(240, 235, 235);
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width:30%;
+    border-radius:10px;
+}
+.card-image {
+    width:100%;
+}
+.contents {
+    text-align:center;
+    padding:20px;
+}
+.order-title {
+    color: rgb(27, 27, 27);
+}
+.description {
+    color: gray;
+    font-size: 14px;
+    margin-top:10px;
+}
+.plan-container {
+    background:rgb(230, 223, 223);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    border-radius:10px;
+    margin-top:25px;
+}
+.plan {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.plan-year {
+    text-align:left;
+}
+.annual {
+    font-size:17px;
+    color:rgb(44, 42, 42);
+}
+.dollar {
+    color:gray;
+    font-size:14px;
+}
+.change {
+    color:rgb(11, 11, 240);
+    font-weight:600;
+    font-size:13px;
+}
+
+.buttons {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    margin-top:20px;
+}
+.buttons button {
+    width:80%;
+    border:none;
+}
+.payment {
+    background:rgb(100, 190, 243);
+    color:whitesmoke;
+    padding:10px;
+    border-radius:10px;
+    font-weight:700;
+    box-shadow: 0 5px 5px 0 rgb(196, 184, 184);
+}
+.cancel {
+    color:rgba(128, 128, 128, 0.438);
+    font-weight:600;
+    margin-top:10px;
+    cursor:pointer;
+}
